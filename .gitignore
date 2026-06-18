@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+*.egg
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# 测试/临时生成文件
+*_test*.py
+_*.py
+test_*.png
+agnes_test*.png
+*.tmp
+
+# 敏感数据：API Key 等本地配置（防泄漏）
+*.key
+.env
+config.json
+.agnes_config.json
+
+# IDE / 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统
+Thumbs.db
+.DS_Store
+desktop.ini
