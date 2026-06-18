@@ -34,3 +34,9 @@ config.json
 Thumbs.db
 .DS_Store
 desktop.ini
+
+# PyInstaller 打包产物
+build/
+dist/
+*.spec
+_make_icon.py
